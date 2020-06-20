@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+    font-family: sans-serif;
+}
+
+
+h1, p {
+    color: white;
+}
+
+
+#tooltip {
+    padding: 10px 20px;
+    background-color : rgb(0, 0, 0);
+    box-shadow: 0 0 50px rgb(255, 255, 255);
+    border-radius: 10px;
+    color:  white;
+}
+
+rect:hover {
+    stroke: white;
+}
+
+
+#legend {
+    position : absolute;
+    top: 30%;
+    left: 80%;
+}
+
+#legend text, #legend rect {
+    padding-bottom: 2px;
+}
